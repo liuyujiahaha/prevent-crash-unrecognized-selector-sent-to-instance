@@ -1,5 +1,9 @@
 # prevent-crash-unrecognized-selector-sent-to-instance
 
+#### *注意
+本项目仅介绍了一种方式，另外一个种可查看AvoidCrash，AvoidCrash是使用了动态替换了NSObject的forwardInvocation和methodSignatureForSelector的方法，然后
+
+
 #### 使用方法
 
 项目中导入了NSObject+AvoidCrash文件后，就再不会出现unrecognized selector sent to instance的问题。
