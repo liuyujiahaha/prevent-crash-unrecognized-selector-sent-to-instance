@@ -10,6 +10,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+@property (nonatomic,copy) NSString * _Nullable crashMsg;
+
+- (void)getCrashMsg;
+
+@end
+
 @interface NSObject (AvoidCrash)
 
 @end

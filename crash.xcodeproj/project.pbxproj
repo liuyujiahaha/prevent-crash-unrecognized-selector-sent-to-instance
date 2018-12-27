@@ -15,6 +15,7 @@
 		074B1CAE21D37C7E000F3C53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B1CAD21D37C7E000F3C53 /* main.m */; };
 		074B1CB821D37C7E000F3C53 /* crashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B1CB721D37C7E000F3C53 /* crashTests.m */; };
 		074B1CC321D37C7E000F3C53 /* crashUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 074B1CC221D37C7E000F3C53 /* crashUITests.m */; };
+		07A8D3EB21D45E8500BEAD0C /* NSObject+AvoidCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 07A8D3EA21D45E8500BEAD0C /* NSObject+AvoidCrash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		074B1CBE21D37C7E000F3C53 /* crashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		074B1CC221D37C7E000F3C53 /* crashUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = crashUITests.m; sourceTree = "<group>"; };
 		074B1CC421D37C7E000F3C53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07A8D3E921D45E8500BEAD0C /* NSObject+AvoidCrash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+AvoidCrash.h"; sourceTree = "<group>"; };
+		07A8D3EA21D45E8500BEAD0C /* NSObject+AvoidCrash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AvoidCrash.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				074B1CA921D37C7E000F3C53 /* LaunchScreen.storyboard */,
 				074B1CAC21D37C7E000F3C53 /* Info.plist */,
 				074B1CAD21D37C7E000F3C53 /* main.m */,
+				07A8D3E921D45E8500BEAD0C /* NSObject+AvoidCrash.h */,
+				07A8D3EA21D45E8500BEAD0C /* NSObject+AvoidCrash.m */,
 			);
 			path = crash;
 			sourceTree = "<group>";
@@ -265,6 +270,7 @@
 				074B1CA321D37C7C000F3C53 /* ViewController.m in Sources */,
 				074B1CAE21D37C7E000F3C53 /* main.m in Sources */,
 				074B1CA021D37C7C000F3C53 /* AppDelegate.m in Sources */,
+				07A8D3EB21D45E8500BEAD0C /* NSObject+AvoidCrash.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
