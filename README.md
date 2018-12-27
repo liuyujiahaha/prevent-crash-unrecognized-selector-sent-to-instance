@@ -2,7 +2,7 @@
 
 #### 使用方法
 
-项目中导入了NSObject+AvoidCrash文件后，项目中就不会出现unrecognized selector sent to instance的问题。
+项目中导入了NSObject+AvoidCrash文件后，就再不会出现unrecognized selector sent to instance的问题。
 
 #### 原理
 
